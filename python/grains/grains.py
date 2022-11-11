@@ -1,6 +1,9 @@
 def square(number):
-    pass
+    return 2 ** (number -1)
 
 
 def total():
-    pass
+    sum = 0
+    for i in range(1, 17):
+        sum += square(i)
+    return sum
