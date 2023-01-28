@@ -10,6 +10,14 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
             }
         },
         {
@@ -20,6 +28,14 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
             }
         },
         {
@@ -27,6 +43,14 @@
             "type": "shell",
             "command": "exercism configure --workspace=${workspaceFolder}",
             "problemMatcher": [],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
         }
     ]
 }
