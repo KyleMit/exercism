@@ -21,6 +21,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Configure workspace",
+            "type": "shell",
+            "command": "exercism configure --workspace=${workspaceFolder}",
+            "problemMatcher": [],
         }
     ]
 }
